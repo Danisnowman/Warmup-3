@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		037E46E5210B44D300796F3F /* Warmup 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Warmup 3"; sourceTree = BUILT_PRODUCTS_DIR; };
-		037E46E8210B44D300796F3F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		037E46E8210B44D300796F3F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; usesTabs = 1; };
+		037E46EF210B464700796F3F /* commonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonFunctions.h; sourceTree = "<group>"; };
+		037E46F0210B464700796F3F /* structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structs.h; sourceTree = "<group>"; usesTabs = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				037E46E8210B44D300796F3F /* main.c */,
+				037E46EF210B464700796F3F /* commonFunctions.h */,
+				037E46F0210B464700796F3F /* structs.h */,
 			);
 			path = "Warmup 3";
 			sourceTree = "<group>";
