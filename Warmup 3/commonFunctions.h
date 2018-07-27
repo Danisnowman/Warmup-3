@@ -10,6 +10,7 @@
 #define commonFunctions_h
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 
 #define maxLength 256                        //"maxLength" is used to read strings with a maximun total of letters which is it's length (80).
 
@@ -46,12 +47,14 @@ int askInt(char text[maxLength], int maxValue){           //Asks user for a inte
     }
     return input;
 }
-
+/*
 char askChar(char text[maxLength]){       //Asks user for a char array, returns said char array. NOTE: CURRENTLY NOT WORKING
     printf("%s", text);
-    char input;
-    scanf("%s", &input);
-    return input;
+    char input[maxLength], output[maxLength];
+    scanf("%s", input);
+    strcpy(output, input);
+    return output;
 }
+*/
 
 #endif /* commonFunctions_h */
