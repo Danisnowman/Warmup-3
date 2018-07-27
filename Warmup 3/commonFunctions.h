@@ -8,8 +8,8 @@
 
 #ifndef commonFunctions_h
 #define commonFunctions_h
-
 #include <stdio.h>
+#include <stdbool.h>
 
 #define maxLength 256                        //"maxLength" is used to read strings with a maximun total of letters which is it's length (80).
 
